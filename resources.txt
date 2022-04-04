@@ -1,0 +1,8 @@
+
+Trying to spawn new input boxes
+https://blog.logrocket.com/how-to-dynamically-create-javascript-elements-with-event-handlers/
+https://www.codeproject.com/Questions/1185082/How-to-create-input-field-with-a-button-click
+
+Draggables accept multiple droppables
+http://jsfiddle.net/v9hawcof/5/
+
