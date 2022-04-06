@@ -9,3 +9,6 @@ http://jsfiddle.net/v9hawcof/5/
 Elements disappear when dnd'ed ontop of another bug
 https://stackoverflow.com/questions/28380692/draggable-elements-disappear-on-hovering-on-top-of-another-element-thats-dragga
 
+ondblclick remove functionality
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_node_remove
+
