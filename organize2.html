@@ -4,7 +4,7 @@
     <style>
       #div1 {
         width: 200px;
-        height: 40px;
+        height: 100px;
         padding: 10px;
         border: 1px solid #aaaaaa;
       }
@@ -22,15 +22,21 @@
         var data = ev.dataTransfer.getData("input");
         ev.target.appendChild(document.getElementById(data));
       }
+      function deleteBox() {
+        const element = document.getElementById("drag1");
+        element.remove();
+      }
     </script>
   </head>
   <body>
     <div id="inputBoard">
-      <input draggable = "true" id = "drag1" ondragstart="drag(event)" type="text" id="fname" name="fname" value="Create Element"><b><br>
+      <input draggable = "true" id = "drag1" ondragstart="drag(event)" type="text" id="fname" name="fname" value="Create Element" ondblclick="deleteBox();"><b><br>
         <button onclick="createNewElement();">New Box</button>
-      </div>
-    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-  <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+    <div class = "flex-container">
+      <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
   </body>
 </html>

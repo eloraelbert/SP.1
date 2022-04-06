@@ -6,3 +6,6 @@ https://www.codeproject.com/Questions/1185082/How-to-create-input-field-with-a-b
 Draggables accept multiple droppables
 http://jsfiddle.net/v9hawcof/5/
 
+Elements disappear when dnd'ed ontop of another bug
+https://stackoverflow.com/questions/28380692/draggable-elements-disappear-on-hovering-on-top-of-another-element-thats-dragga
+
